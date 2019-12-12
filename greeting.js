@@ -13,7 +13,7 @@ function handleSubmit(event) {
     event.preventDefault();
     const currentValue = input.value;
     paintGreeting(currentValue);
-    setName(currentValue);
+    setName(currentValue); 
 }
 
 function askForName() {
